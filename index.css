@@ -1,0 +1,138 @@
+.container{
+  margin: 100px auto;
+  width: 1000px;
+  height: 400px;
+  position: relative;
+}
+/* 奖品区域 */
+.container .prizes{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container .prizes .item{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100px;
+  background-color: aqua;
+  padding: 5px 0;
+  box-sizing: border-box;
+}
+.container .prizes .item.one{
+  left: 0;
+  top: 0;
+}
+.container .prizes .item.two{
+  left: 205px;
+  top: 0;
+}
+.container .prizes .item.three{
+  left: 410px;
+  top: 0;
+}
+.container .prizes .item.four{
+  left: 615px;
+  top: 0;
+}
+.container .prizes .item.five{
+  left: 820px;
+  top: 0px;
+}
+.container .prizes .item.six{
+  left: 820px;
+  top: 105px;
+}
+.container .prizes .item.seven{
+  left: 820px;
+  top: 210px;
+}
+.container .prizes .item.eight{
+  left: 820px;
+  top: 315px;
+}
+.container .prizes .item.nine{
+  left: 615px;
+  top: 315px;
+}
+.container .prizes .item.ten{
+  left: 410px;
+  top: 315px;
+}
+.container .prizes .item.eleven{
+  left: 205px;
+  top: 315px;
+}
+.container .prizes .item.twelve{
+  left: 0px;
+  top: 315px;
+}
+.container .prizes .item.thirteen{
+  left: 0px;
+  top: 210px;
+}
+.container .prizes .item.fourteen{
+  left: 0px;
+  top: 105px;
+}
+.container .prizes .item.active{
+  background-color:yellow;
+}
+.container .prizes .item .pic{
+
+  width: 50%;
+  height: 60px;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.container .prizes .item .pic img{
+  width: 100%;
+  height: 100%;
+}
+.container .prizes .item .info{
+  flex: 1;
+  color:cornflowerblue;
+  text-align:  center;
+}
+/* 抽奖按钮区域 */
+.container .btns{
+  width: 610px;
+  height: 205px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  position: absolute;
+  top: 105px;
+  left: 205px;
+}
+.container .btns a:nth-child(1){
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  height: 50px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  position: absolute;
+  
+  top: 101.5px;
+  left: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.container .btns a:nth-child(2){
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  height: 50px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  position: absolute;
+  top: 101.5px;
+  left: 400px;
+  text-align: center;
+  line-height: 50px;
+}
